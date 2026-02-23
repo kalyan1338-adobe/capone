@@ -798,7 +798,9 @@ main .form form select[multiple] {
 /* header */
 
 .form .field-header{
-    background-color: darkblue;
+    display: flex !important;
+    justify-content: space-between;
+    background: darkblue;
 }
 
 /* footer */
@@ -810,4 +812,40 @@ main .form form select[multiple] {
 
 .form .field-footer > div > p > p{
     color: white;
+}
+
+/* user sign in */
+
+.form .field-pannumber{
+    padding-left: 350px;
+}
+
+.form .field-dateofbrth{
+    padding-left: 350px;
+}
+
+.form .field-salaried-text{
+    border: 3px solid gold;
+}
+
+.form .field-salaried-text >p >p{
+    color: brown;
+}
+
+.form .button{
+    border-radius: 25px;
+}
+
+.form .field-text-journey{
+    border-top: 1px solid grey;
+    padding-top: 15px;
+}
+
+.form .field-id-text >p >p{
+    color: blue;
+}
+
+.field-text-journey >p >p:first-of-type {
+    text-align: center;
+    font-size: small;
 }
