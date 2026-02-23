@@ -849,3 +849,7 @@ main .form form select[multiple] {
     text-align: center;
     font-size: small;
 }
+
+.form .field-secureimage >picture >img{
+    height: 65px;
+}
