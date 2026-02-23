@@ -3,7 +3,7 @@
     --label-color: #666;
     --border-color: #818a91;
     --form-error-color: #ff5f3f;
-    --button-primary-color: #5F8DDA;
+    --button-primary-color: #5110e9;
     --button-secondary-color: #666;
     --button-primary-hover-color: #035fe6;
     --form-font-size-m: 22px;
@@ -791,4 +791,23 @@ main div.form-wrapper {
 /* Expand height for multi-select dropdowns (array types) */
 main .form form select[multiple] {
     height: calc(42px + 50px);
+}
+
+/*************************************************************************************************************/
+
+/* header */
+
+.form .field-header{
+    background-color: darkblue;
+}
+
+/* footer */
+
+.form .field-footer{
+    background-color: darkblue;
+    text-align: center;
+}
+
+.form .field-footer > div > p > p{
+    color: white;
 }
