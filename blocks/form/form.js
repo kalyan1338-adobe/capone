@@ -524,11 +524,7 @@ function addRequestContextToForm(formDef) {
   }
 }
 
-/* emi calculation */
-function emical(loan,interest,tenure){
-  const emi=(loan*interest*(1+interest)^tenure)/((1+interest)^tenure)-1;
-  return emi;
-}
+
 
 export default async function decorate(block) {
   let container = block.querySelector('a[href]');

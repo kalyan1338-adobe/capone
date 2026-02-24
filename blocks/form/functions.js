@@ -56,7 +56,13 @@ function maskMobileNumber(mobileNumber) {
   return ` ${'*'.repeat(5)}${value.substring(5)}`;
 }
 
+/* emi calculation */
+function emical(loan,interest,tenure){
+  const emi=(loan*interest*(1+interest)^tenure)/((1+interest)^tenure)-1;
+  return emi;
+}
+
 // eslint-disable-next-line import/prefer-default-export
 export {
-  getFullName, days, submitFormArrayToString, maskMobileNumber,
+  getFullName, days, submitFormArrayToString, maskMobileNumber, emical,
 };
