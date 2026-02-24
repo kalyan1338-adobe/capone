@@ -58,8 +58,10 @@ function maskMobileNumber(mobileNumber) {
 
 /* emi calculation */
 function emical(loan,interest,tenure){
-  const emi=(loan*interest*(1+interest)^tenure)/((1+interest)^tenure)-1;
-  return emi;
+  const r = interest/(12 * 100);
+  const emi=(loan*r*(1+r)^tenure)/((1+r)^tenure)-1;
+  const final_emi=Math.trunc(emi).toLocaleString('en-IN');
+  return final_emi;
 }
 
 // eslint-disable-next-line import/prefer-default-export
