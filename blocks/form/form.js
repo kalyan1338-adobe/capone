@@ -524,6 +524,11 @@ function addRequestContextToForm(formDef) {
   }
 }
 
+/* emi calculation */
+function emi_cal(loan,tenure){
+
+}
+
 export default async function decorate(block) {
   let container = block.querySelector('a[href]');
   let formDef;
