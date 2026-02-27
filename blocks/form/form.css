@@ -901,8 +901,15 @@ main .form form select[multiple] {
     border: none;
 }
 
-.form .field-loan-summary-title{
+.form .field-avail-loan-amount{
     border-bottom: 1px dashed;
+}
+
+.form .field-avail-loan-amount >input{
+    background-color: #ffedcb;
+    border: none;
+    font-size: xxx-large;
+    font-weight: bold;
 }
 
 /* review page 
