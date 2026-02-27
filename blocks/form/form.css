@@ -853,3 +853,128 @@ main .form form select[multiple] {
 .form .field-secureimage >picture >img{
     height: 65px;
 }
+
+/* offers page */
+.form .field-loan-info{
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+.form .field-loan-summary-panel{
+    background-color: #ffedcb;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.form .field-loan-offer-note{
+    background-color: orange;
+    border-radius: 20px;
+}
+
+.form .field-loan-offer-note >p >p{
+    color: white;
+    padding: 10px;
+}
+
+.form .field-emi-amount{
+    border-left: 4px solid orange;
+    padding-left: 10px;
+}
+
+.form .field-rate-of-interest{
+    border-left: 4px solid orange;
+    padding-left: 10px;
+}
+
+.form .field-taxes{
+    border-left: 4px solid orange;
+    padding-left: 10px;
+}
+
+.form .field-emi-amount > input{
+    background-color:#ffedcb;
+    border: none;
+}
+
+.form .field-rate-of-interest > input{
+    background-color: #ffedcb;
+    border: none;
+}
+
+.form .field-loan-summary-title{
+    border-bottom: 1px dashed;
+}
+
+/* review page 
+.form .field-loan-details-grid >div{
+    border-left: 4px solid skyblue;
+}
+
+.form .field-personal-details-grid >div{
+    border-left: 4px solid skyblue;
+}
+
+.form .field-loan-details-grid{
+    background-color: #f8fafb;
+}
+
+.form .field-loan-details-grid >div >input{
+    background-color: #f8fafb;
+    border: none;
+}
+
+.form .field-personal-details-grid >div >input{
+    background-color: #f8fafb;
+    border: none;
+}
+
+.form .field-personal-details-grid{
+    background-color: #f8fafb;
+}
+
+/* thank you page(preview-fragment) 
+.form .field-kyc-info{
+    background-color: #F5E6DE;
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+.form .field-recurring-deposit{
+    background-color: #f4f9fb;
+    border-radius: 15px;
+}
+
+.form .field-health-insurance{
+    background-color: #f9e0e4;
+    border-radius: 15px;
+}
+
+.form .field-contact-info{
+    border-bottom: 1px dashed grey;
+}
+
+.form .field-loan-amount-text{
+    border-left: 4px solid skyblue;
+    padding-left: 10px;
+}
+
+.form .field-loan-credit-info{
+     background-color: aliceblue;
+     border-radius: 10px;
+}
+
+.form .field-loan-credit-info >p >p{
+     color: blue;
+     margin: 10px;
+}
+
+.form .field-easy-loan-management-panel{
+    background-color: rgb(195, 221, 231);
+    border-radius: 20px;
+}
+
+.form .field-download-app{
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+}*/

@@ -64,7 +64,12 @@ function emical(loan, interest, tenure) {
   const final_emi = Math.trunc(emi).toLocaleString('en-IN');
   return final_emi;
 }
+
+/*update avail loan field */
+function availloan(loanamount){
+  return loanamount;
+}
 // eslint-disable-next-line import/prefer-default-export
 export {
-  getFullName, days, submitFormArrayToString, maskMobileNumber, emical,
+  getFullName, days, submitFormArrayToString, maskMobileNumber, emical, availloan,
 };
