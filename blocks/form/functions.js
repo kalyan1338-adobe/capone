@@ -69,7 +69,22 @@ function emical(loan, interest, tenure) {
 function availloan(loanamount){
   return loanamount;
 }
+
+/*tenure getter */
+function getTenure(tenure){
+  return tenure;
+}
+
+/* rate of interest getter */
+function getRoi(roi){
+  return roi;
+}
+
+/* emi getter */
+function getEmi(emi){
+  return emi;
+}
 // eslint-disable-next-line import/prefer-default-export
 export {
-  getFullName, days, submitFormArrayToString, maskMobileNumber, emical, availloan,
+  getFullName, days, submitFormArrayToString, maskMobileNumber, emical, availloan, getTenure, getRoi, getEmi,
 };
