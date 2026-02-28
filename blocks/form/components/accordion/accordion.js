@@ -35,9 +35,6 @@ export default function decorate(panel) {
     const data=await res.json();
     const offers = data?.responseString?.OfferDemogDetails || [];
     const firstOffer = offers[0];
-    const loanAmount = firstOffer.offerAmount;
-    const tenure = firstOffer.tenure;
-    const interest = firstOffer.rateOfInterest;
     const mobile = firstOffer.customerMobileNo;
     const dob = firstOffer.dateOfBirth;
     const fname = firstOffer.customerFirstName;
@@ -51,16 +48,10 @@ export default function decorate(panel) {
     const city = firstOffer.customerCity;
     const zipcode = firstOffer.zipCode;
     const address = address1 + "," + address2 + "," + address3 + "," + city + "," + state + "-" + zipcode;
-    const loanfld = document.getElementsByName("loan_amount")[0];
-    const tenurefld = document.getElementsByName("tenure")[0];
-    const intfld = document.getElementsByName("interest")[0];
     const mobfld = document.getElementsByName("mobile_number")[0];
     const dobfld = document.getElementsByName("dob")[0];
     const fullnamefld = document.getElementsByName("full-name")[0];
     const addfld = document.getElementsByName("current-address")[0];
-    loanfld.value=loanAmount;
-    tenurefld.value=tenure;
-    intfld.value=interest;
     mobfld.value=mobile;
     dobfld.value=dob;
     fullnamefld.value=fullname;

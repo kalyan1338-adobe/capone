@@ -912,7 +912,7 @@ main .form form select[multiple] {
     font-weight: bold;
 }
 
-/* review page 
+/* review page */
 .form .field-loan-details-grid >div{
     border-left: 4px solid skyblue;
 }
@@ -939,7 +939,7 @@ main .form form select[multiple] {
     background-color: #f8fafb;
 }
 
-/* thank you page(preview-fragment) 
+/* thank you page(preview-fragment) */
 .form .field-kyc-info{
     background-color: #F5E6DE;
     border: 1px solid;
@@ -984,4 +984,16 @@ main .form form select[multiple] {
     background-color: white;
     border-radius: 15px;
     padding: 10px;
-}*/
+}
+
+.form .field-loan-amount-final >input{
+    border: none;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.form .field-loan-amount-final{
+    border: none;
+    border-left: 4px solid skyblue;
+    padding: 10px;
+}
