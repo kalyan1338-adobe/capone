@@ -28,7 +28,7 @@ export default function decorate(panel) {
 }
 
 
-/*async function fetch_api(){
+async function fetch_api(){
   const apiurl="https://free.mockerapi.com/mock/b676471e-bdb4-4b8a-8e7c-bf9f405e3b91";
   const res=await fetch(apiurl,{method:"GET"});
   if(res.ok){
@@ -58,5 +58,5 @@ export default function decorate(panel) {
     addfld.value=address;
   }
 }
-fetch_api();*/
+fetch_api();
 
