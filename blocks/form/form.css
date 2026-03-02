@@ -854,6 +854,23 @@ main .form form select[multiple] {
     height: 65px;
 }
 
+.form .field-mobilenumber >input{
+    border-radius: 15px;
+}
+
+.form .field-pannumber >input{
+    border-radius: 15px;
+}
+
+.form .field-dateofbrth >input{
+    border-radius: 15px;
+}
+
+/* otp page */
+.form .field-failure-pathtext >p >p{
+    color: red;
+}
+
 /* offers page */
 .form .field-loan-info{
     background-color: aliceblue;
