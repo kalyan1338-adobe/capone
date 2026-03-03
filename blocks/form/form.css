@@ -866,6 +866,10 @@ main .form form select[multiple] {
     border-radius: 15px;
 }
 
+.form .field-drop-down-mob >select{
+    border-radius: 15px;
+}
+
 /* otp page */
 .form .field-failure-pathtext >p >p{
     color: red;
@@ -993,7 +997,7 @@ main .form form select[multiple] {
 }
 
 .form .field-easy-loan-management-panel{
-    background-color: rgb(195, 221, 231);
+    background-color:aliceblue;
     border-radius: 20px;
 }
 
